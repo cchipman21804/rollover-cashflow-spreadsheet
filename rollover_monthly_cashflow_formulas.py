@@ -45,15 +45,9 @@ workBook.save(fileName)
 # >>> type(sheet['E12'].value)
 # <class 'str'>
 #
-# >>> sheet['E11'].value
-# 'Change all formulas to November register'
-#
 # >>> sheet['E10'].value
 # >>> type(sheet['E10'].value)
 # <class 'NoneType'>
-#
-#
-#workBook.active = workBook[newSheetName]
 #
 # Report:
 # Uncomment to debug
